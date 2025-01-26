@@ -125,3 +125,7 @@ button:active {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
