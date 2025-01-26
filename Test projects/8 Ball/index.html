@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Test projects/8 Ball/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Test projects/8 Ball/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Test projects/8 Ball/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/Test projects/8 Ball/favicon_io/site.webmanifest">
+    <title>8 Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>8 Ball!</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="input_form">
+                <div>
+                    <input oninput="welcomeMessage()" class="name" type="text" placeholder="Insert your name here...">
+                </div>
+                <div class="welcome_message">
+                </div>
+                <div>
+                    <input id="question" class="question" type="text" placeholder="Ask your question here...">
+                </div>
+
+            </div>
+            <button id="ask">Ask!</button>
+            <div class="answer">
+                <p id="output"></p>
+            </div>
+    </main>
+
+
+
+    <div>
+        <footer>
+            <p>Created by <a target="_blank" href="https://www.linkedin.com/in/hesham-fekry-15b509152/">Hesham.</a></p>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
