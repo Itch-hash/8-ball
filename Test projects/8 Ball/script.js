@@ -1,14 +1,3 @@
-// const nameInput = document.querySelector("name");
-
-// nameInput.addEventListener("oninput", function (event) {
-//   const userName = document.getElementsByClassName(".name").value;
-//   const welcomeMessage = document.getElementsByClassName(".welcome_message");
-//   if (userName.trim() !== "") {
-//     const p = `<p>Hello ${userName}! What's your question for me?</p>`;
-//     welcomeMessage.innerHTML = p;
-//   }
-// });
-
 function welcomeMessage() {
   let userName = document.querySelector(".name").value;
   document.querySelector(
